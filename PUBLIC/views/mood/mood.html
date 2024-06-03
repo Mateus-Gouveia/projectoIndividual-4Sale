@@ -1,0 +1,83 @@
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Hans McMurdy">
+        <title>Perfil Admin</title>
+        <meta name="title" content="#JavaScriptFirst">
+       <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../assets/styles/style.css">
+        <link rel="stylesheet" href="../../assets/styles/selecfoto.css">
+        <style>
+            section{
+                margin-left: 30%;
+            }
+        </style>
+    </head>
+
+    <body class="text-center">
+        <header>
+            <nav>
+                <div class="button">
+                    <button class="voltar"><a href="../home.html" id="dvoltar">Voltar</a></button>
+                </div>
+        
+                <h1 class="logo"> ForSale</h1>
+                <ul>
+                    
+                </ul>
+               
+            </nav>
+        </header>
+<br><br><br><br><br>
+
+<section>
+    <form id="formpro">
+
+        <label for="numero">Nome: </label>
+        <input id="nome" type="text" placeholder="O que estás a vender?" required> <br><br>
+
+        <label for="numero">Nome: </label>
+        <input id="preco" type="text" placeholder="preço" required> <br><br>
+
+        <label for="email">Email: </label>
+        <input id="desc" type="text" placeholder="Descreva o teu produto" required>  <br><br>
+
+        <select id="state">
+            <option selected disabled > Estado do Produto</option>
+            <option value="Novo">Novo</option>
+            <option value="Usado mas pouco">Usado mas pouco</option>
+            <option value="Muito usado">Muito usado</option>
+            <option value="Estragado">Estragado</option>
+            
+        </select>
+        <select id="locate">
+            <option selected disabled > Selecione a sua localização</option>
+            <option value="Luanda">Luanda</option>
+            <option value="Bengo">Bengo</option>
+            <option value="Zaire">Zaire</option>
+            <option value="Uige">Uíge</option>
+            <option value="K. Norte">Kwanza Norte</option>
+            <option value="Huambo">Huambo</option>
+            <option value="Benguela">Benguela</option>
+            <option value="Moxico">Moxico</option>
+            <option value="Lunda norte">Lunda Norte</option>
+            <option value="Lunda sul">Lunda sul</option>
+            <option value="Malanje">Malanje</option>
+
+        </select>
+
+    
+
+        <div class="text-center my-4">
+            <button type="submit" class="btn btn-primary" id="salv">Salvar</button>
+        </div>
+     </form>
+</section>
+    
+
+     <script src="../../assets/JS/update.js"></script>
+    </body>
+</html>

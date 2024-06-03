@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace</title>
+    <link rel="stylesheet" href="../../assets/styles/style.css">
+    <link rel="stylesheet" href="../../assets/styles/selecfoto.css">
+
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="button">
+            <button class="voltar"><a href="../index/index.html" id="dvoltar">Voltar</a></button>
+        </div>
+
+        <h1 class="logo"> ForSale</h1>
+        <ul>
+            
+        </ul>
+       
+    </nav>
+</header>
+
+<section id="vai">
+    
+        <div class="titulo">
+            <div id="doform">
+                <form>
+
+                    <h1>Vender</h1>
+                
+                      
+                       
+                
+                    <button class="sent-foto" style="background-color: white; border-radius: 5px;"> <input type="file" id="carreg-foto" accept="image/*" style="border: 0; background-color: white;">
+                    </button>
+            
+                    <label for="numero">Nome: </label>
+                    <input id="nome" type="text" placeholder="O que estás a vender?" required> <br><br>
+        
+                    <label for="numero">Nome: </label>
+                    <input id="preco" type="text" placeholder="preço" required> <br><br>
+        
+                    <label for="email">Email: </label>
+                    <input id="desc" type="text" placeholder="Descreva o teu produto" required>  <br><br>
+        
+                    <select id="state">
+                        <option selected disabled > Estado do Produto</option>
+                        <option value="Novo">Novo</option>
+                        <option value="Usado mas pouco">Usado mas pouco</option>
+                        <option value="Muito usado">Muito usado</option>
+                        <option value="Estragado">Estragado</option>
+                        
+                    </select>
+                    <select id="locate">
+                        <option selected disabled > Selecione a sua localização</option>
+                        <option value="Luanda">Luanda</option>
+                        <option value="Bengo">Bengo</option>
+                        <option value="Zaire">Zaire</option>
+                        <option value="Uige">Uíge</option>
+                        <option value="K. Norte">Kwanza Norte</option>
+                        <option value="Huambo">Huambo</option>
+                        <option value="Benguela">Benguela</option>
+                        <option value="Moxico">Moxico</option>
+                        <option value="Lunda norte">Lunda Norte</option>
+                        <option value="Lunda sul">Lunda sul</option>
+                        <option value="Malanje">Malanje</option>
+        
+                    </select>
+
+                
+                   
+                   
+        
+                   
+                    <input id="sale"  type="submit" class="sale" value="Disponibilizar produto para venda" >
+        
+                </form>
+            </div>
+        </div>
+    
+</section>
+    
+<script src="../../assets/JS/vendas.js"></script>
+</body>
+</html>

@@ -1,0 +1,272 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #585656;
+   
+}
+
+header{
+    
+    box-shadow: 0 4px 8px 0 rgb(55, 211, 231), 0 6px 20px 0,rgb(30, 139, 139);
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.button button{
+    padding: 10px;
+    border-radius: 10px;
+    background-image:linear-gradient(to right,rgb(55, 211, 231),rgb(30, 139, 139));
+    color: white;
+    font-size: 18px;
+    border:none;
+    transition: .2s;
+    
+}
+
+.button button:hover{
+    background-image:linear-gradient(to left,rgb(55, 211, 231),rgb(30, 139, 139));
+    cursor: pointer;
+}
+
+section .conteudo2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tela{
+    width: 82%;
+    position:absolute;
+    right: 0;
+
+  
+}
+
+.imagem{
+    flex: 60%;
+    background-image: url(bank-landing-page-images/bg-intro-desktop.svg);
+    background-size: cover; 
+    background-position: center;
+    position: relative;
+    height: 300px;
+    z-index: -1;
+}
+
+.control h1{
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 40px;
+   text-align: center;
+}
+
+.smart{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.smart div{
+    margin-right:30px;
+    flex: 25%;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.smart div img{
+    margin-bottom: 20px;
+
+
+}
+
+.smart div h1{
+    margin-bottom: 20px;
+}
+
+h1{
+    color: black;
+}
+
+#volta{
+    margin-top: 200px;
+}
+
+#volta  h1{
+    font-size: 34px;
+    margin-left: 5%;
+   color: #585656;
+    margin-bottom: 10px;
+}
+
+#volta  .smart div{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.021),0 6px 20px 0 rgba(118, 115, 115, 0.236);
+}
+
+#volta a{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 13px;
+    margin-bottom: 15px;
+   color: #100e0e;
+   text-decoration: none;
+   transition: 0.2s;
+}
+
+#volta a:hover{
+    color:rgb(55, 211, 231);
+    transform: scale(1.1);
+}
+
+#volta img{
+    width: 100%;
+    opacity: .9;
+    transition: 0.2s;
+}
+
+#volta img:hover{
+    opacity: 1;
+}
+
+#dolog{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.voltar{
+    margin-right: 800px;
+    
+}
+
+#dvoltar{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+#dvender{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+
+#vai{
+    background-image:url(../imgs/fundocriar.JPG);
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-width: 100vw;
+    padding: 1rem;
+}
+    
+
+form{
+    width: 520px;
+}
+
+label{
+    display: none;
+}
+input{
+    outline: none;
+    margin: 0.75rem 0 0.625rem 0;
+    padding: 0.75rem;
+    border-radius: 5px;
+    margin-bottom: 0 auto 6px 0;
+    position: relative;
+    width: 100%;
+    border: 1px solid #ececec;
+    
+}
+input:focus{
+    border: 2px solid rgb(30, 139, 139);
+}
+
+/* PLACEHOLDER */
+ input::placeholder{
+    font-size: 0.75rem;
+ }
+ input:focus::placeholder{
+    transform: translate(-5px, -7px);
+    transition:  transform 0.5s ease;
+ }
+ .form-group{
+    display: flex;
+    flex-direction: column;
+ }
+
+ #doform{
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 7px;
+    border: 2px solid rgb(55, 211, 231) ;
+  
+ }
+
+ .doinput{
+    box-shadow: 2px 2px 2px 2px #3a3939;
+ }
+
+ #sub{
+    padding: 10px;
+    border-radius: 10px;
+    background-image:linear-gradient(to right,rgb(55, 211, 231),rgb(30, 139, 139));
+    color: white;
+    font-size: 18px;
+    border:none;
+    transition: .2s;
+ }
+
+ .dcriar{
+    padding: 10px;
+    border-radius: 10px;
+    background-image:linear-gradient(to right,rgb(55, 211, 231),rgb(30, 139, 139));
+    color: white;
+    font-size: 18px;
+    border:none;
+    transition: .2s;
+ }
+   
+ #carreg-foto{
+    outline: none;
+    margin: 0.75rem 0 0.625rem 0;
+    padding: 0.75rem;
+    border-radius: 5px;
+    margin-bottom: 0 auto 6px 0;
+    position: relative;
+    width: 400px;
+    height: 50px;
+    border: 1px solid #ececec;
+    display: flex;
+    
+ }
+
+ .sent-foto{
+    width: 520px;
+
+ }
+ 
+ select{
+    display: inline-block;
+    border: 2px solid rgb(55, 211, 231);
+    width: 200px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+ }

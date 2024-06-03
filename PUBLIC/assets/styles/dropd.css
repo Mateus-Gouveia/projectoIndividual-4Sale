@@ -1,0 +1,33 @@
+#dropd {
+    text-decoration: none;
+
+
+}
+
+#dropd a:hover {
+    opacity: 1;
+    transform: scale(1.2);
+    color:rgb(55, 211, 231);
+}
+
+
+.botaodrop #dropd:hover{
+    text-decoration: none;
+    
+}
+
+#dropd{
+    display: inline;
+}
+
+.dropd-cont{
+    display: none;
+    position: absolute;
+
+}
+
+
+
+.dropd:hover .dropd-cont{
+    display: block;
+}

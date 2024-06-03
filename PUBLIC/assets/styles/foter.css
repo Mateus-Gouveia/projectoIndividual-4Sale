@@ -1,0 +1,10 @@
+#rodape{
+    padding: 5px;
+    border-top: 1px solid rgb(30, 139, 139);
+    text-align: center;
+}
+
+#rodape2{
+    text-align: center;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,96 @@
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Hans McMurdy">
+        <title>Perfil Admin</title>
+        <meta name="title" content="#JavaScriptFirst">
+       <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+       <link rel="stylesheet" href="../../assets/styles/style.css">
+    
+        <style>
+            #cabe{
+                
+                background-color: black;
+            }
+            #btnactua{
+                margin-left: 30px;
+                color: white;
+            }
+
+           
+
+            #btnactua, #btnad{
+                margin-top: 10px;
+            }
+
+            #corpo{
+                margin-top: 19px;
+            }
+
+          
+        </style>
+    </head>
+
+    <body class="text-center">
+    
+        <div id="cabe">
+            <header>
+                <nav>
+                    <div class="button">
+                        <button class="voltar"><a href="../home.html" id="dvoltar">Voltar</a></button>
+                    </div>
+        
+                    <h1 class="logo"> ForSale</h1>
+                    <ul>
+                    
+                    </ul>
+               
+                </nav>
+            </header>
+        </div>
+<br><br><br><br><br>
+      
+
+        <div id="corpo">  
+            <form class="d-flex justify-content-center">
+            <div class="row col-md-3 mt-4">
+                <div class="col-md-9">
+                    <input type="text" id="texto" class="form-control" placeholder="Lista de usuários">
+                </div>
+                <div class="col-md-3">
+                    <button type="button" class="btn btn-primary" id="btnbusc">Buscar</button>
+                </div>
+
+                <br><div class="col-md-3">
+                    <button type="button" class="btn btn-primary" id="btnadd">Adicionar</button>
+                </div>
+
+            
+            </div>
+            </form>
+
+
+
+            <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Nome</th>
+                    <th  scope="col">Ação</th>
+                </tr>
+            </thead>
+            <tbody id="result">
+        
+            </tbody>
+
+            </table>
+
+        </div>
+
+        
+        <script src="../../assets/JS/users.js"></script>
+    </body>
+</html>
